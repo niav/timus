@@ -20,14 +20,12 @@ Problem Source: IX Open Collegiate Programming Contest of the High School Pupils
 using namespace std;
 
 int main() {
-
     int n;
     int a;
     int b;
+
     cin >> n >> a >> b;
-
     cout << 2*n*a*b;
-
 
     return 0;
 }

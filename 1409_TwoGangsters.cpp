@@ -21,14 +21,11 @@ Problem Source: The 12th High School Pupils Collegiate Programming Contest of th
 using namespace std;
 
 int main() {
-
     int harry;
     int larry;
 
     cin >> harry >> larry;
-
     cout << harry + larry - harry - 1 << " " << harry + larry - larry - 1;
-
 
     return 0;
 }

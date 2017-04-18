@@ -31,60 +31,49 @@ Tags: none  (hide tags for unsolved problems)
 
 */
 
-
 #include <iostream>
 
-
 int main(){
+	int monsters;
 
-		int monsters;
+    do {
+        std::cin >> monsters;
+    } while (monsters > 2000 || monsters < 1);
 
-		do {
-			std::cin >> monsters;
-		} while (monsters > 2000 || monsters < 1);
-
-		if (monsters>=1000) {
-			std::cout << "legion" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 5) {
-			std::cout << "few" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 10) {
-			std::cout << "several" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 20) {
-			std::cout << "pack" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 50) {
-			std::cout << "lots" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 100) {
-			std::cout << "horde" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 250) {
-			std::cout << "throng" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 500) {
-			std::cout << "swarm" << std::endl;
-			return 0;
-		}
-
-		if (monsters < 1000) {
-			std::cout << "zounds" << std::endl;
-			return 0;
-		}
+    if (monsters >= 1000) {
+        std::cout << "legion" << std::endl;
+        return 0;
+    }
+    if (monsters < 5) {
+        std::cout << "few" << std::endl;
+        return 0;
+    }
+    if (monsters < 10) {
+        std::cout << "several" << std::endl;
+        return 0;
+    }
+    if (monsters < 20) {
+        std::cout << "pack" << std::endl;
+        return 0;
+    }
+    if (monsters < 50) {
+        std::cout << "lots" << std::endl;
+        return 0;
+    }
+    if (monsters < 100) {
+        std::cout << "horde" << std::endl;
+        return 0;
+    }
+    if (monsters < 250) {
+        std::cout << "throng" << std::endl;
+        return 0;
+    }
+    if (monsters < 500) {
+        std::cout << "swarm" << std::endl;
+        return 0;
+    }
+    if (monsters < 1000) {
+        std::cout << "zounds" << std::endl;
+        return 0;
+    }
 }

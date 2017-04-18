@@ -3,5 +3,5 @@ project(timus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES 1877_BicycleCodes.cpp)
+set(SOURCE_FILES 2001_MathAndBerries.cpp)
 add_executable(timus ${SOURCE_FILES})
